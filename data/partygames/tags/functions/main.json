@@ -1,0 +1,7 @@
+{
+    "values": [
+        "partygames:games/dripspleaf/tick",
+        "partygames:games/iceboom/tick",
+        "partygames:games/mountainclimb/tick"
+    ]
+}

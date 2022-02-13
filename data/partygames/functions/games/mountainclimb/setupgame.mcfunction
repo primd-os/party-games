@@ -1,0 +1,1 @@
+execute if score GameID pg.mc.Variables = Index pg.Variables run function partygames:games/mountainclimb/load

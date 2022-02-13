@@ -1,0 +1,1 @@
+execute if score GameID pg.ib.Variables = Index pg.Variables run function partygames:games/iceboom/load

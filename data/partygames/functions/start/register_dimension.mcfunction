@@ -1,0 +1,1 @@
+execute if data storage rx.playerdb:io player.data.primd.hub{spawnDim:"partygames:partygames"} in partygames:partygames run function hub:main/death/warp

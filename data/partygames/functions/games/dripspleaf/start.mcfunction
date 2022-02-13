@@ -1,0 +1,1 @@
+execute if score GameID pg.ds.Variables = RandomGameID pg.Variables run function partygames:games/dripspleaf/actualstart

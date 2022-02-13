@@ -1,0 +1,1 @@
+execute if score @s warp = GameId pg.Variables run function partygames:start/join

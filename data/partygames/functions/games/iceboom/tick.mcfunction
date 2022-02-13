@@ -1,0 +1,1 @@
+execute if score countdown pg.ib.Variables matches 0 at @e[type=marker,x=0,tag=pg.ib.GameMarker,limit=1] run function partygames:games/iceboom/actualtick
