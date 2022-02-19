@@ -20,4 +20,3 @@ schedule function partygames:games/iceboom/get_ready 20t
 
 
 clear @a[x=0]
-give @a[x=0] creeper_spawn_egg 24

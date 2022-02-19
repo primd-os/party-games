@@ -5,4 +5,5 @@ execute positioned ~-40 40 ~-40 as @e[type=player,gamemode=!spectator,dx=100,dy=
 
 scoreboard players set playercount pg.ib.Variables 0
 execute as @a[gamemode=!spectator,x=0] run scoreboard players add playercount pg.ib.Variables 1
-execute if score playercount pg.ib.Variables matches ..1 run tp @a[x=0] 0 107 0
+execute if score playercount pg.ib.Variables matches ..1 run function partygames:main/endgame
+

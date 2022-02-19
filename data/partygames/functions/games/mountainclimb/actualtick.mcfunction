@@ -7,4 +7,4 @@ execute as @a[dx=200,dy=200,dz=200] at @s if block ~ ~-1 ~ minecraft:magenta_gla
 
 execute as @a[dx=200,dy=200,dz=200] at @s if block ~ ~-1 ~ minecraft:gold_block run effect give @s minecraft:speed 1 15 true
 
-execute positioned ~19 ~58 ~25 run execute as @a[dx=3, dy=10, dz=6] run tp @a[x=0] 0 105 0
+execute positioned ~19 ~58 ~25 run execute as @a[dx=3, dy=10, dz=6] run function partygames:main/endgame

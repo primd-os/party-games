@@ -8,6 +8,7 @@ team modify pg.Team friendlyFire true
 execute in partygames:partygames run forceload add -2 -3 10 10
 execute in partygames:partygames run setblock -2 100 -2 minecraft:structure_block[mode=load]{mode:"LOAD",name:"partygames:partygameslobby",posX:1,posY:1,posZ:1}
 execute in partygames:partygames run setblock -2 100 -3 redstone_block
+execute in partygames:partygames run fill -2 100 -2 -2 100 -3 air
 execute in partygames:partygames run forceload remove -2 -3 10 10
 
 scoreboard players set GameID pg.Variables 0
