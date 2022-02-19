@@ -1,3 +1,4 @@
+kill @e[type=item,x=0]
 
 #gives everyone saturation
 effect give @a[x=0] saturation 1000000 3 true

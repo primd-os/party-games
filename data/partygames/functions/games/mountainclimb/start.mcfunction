@@ -1,1 +1,1 @@
-execute if score GameID pg.mc.Variables = RandomGameID pg.Variables run function partygames:games/mountainclimb/actualstart
+execute if score GameID pg.mc.Variables = RandomGameID pg.Variables at @e[type=marker,x=0,tag=pg.mc.GameMarker,limit=1] run function partygames:games/mountainclimb/actualstart

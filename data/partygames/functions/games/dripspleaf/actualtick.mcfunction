@@ -8,4 +8,7 @@ execute positioned ~-15 95 ~-15 run execute as @a[gamemode=!spectator,dx=50,dy=1
 
 scoreboard players set playercount pg.ds.Variables 0
 execute as @a[gamemode=!spectator,x=0] run scoreboard players add playercount pg.ds.Variables 1
-execute if score playercount pg.ds.Variables matches ..1 run function partygames:games/dripspleaf/enddripspleaf
+scoreboard players set totalPlayercount pg.ds.Variables 0
+execute as @a[x=0] run scoreboard players add totalPlayercount pg.ds.Variables 1
+execute if score playercount pg.ds.Variables matches ..1 if score totalPlayercount pg.ds.Variables matches 2.. run function partygames:games/dripspleaf/enddripspleaf
+execute if score playercount pg.ds.Variables matches 0 if score totalPlayercount pg.ds.Variables matches ..1 run function partygames:games/dripspleaf/enddripspleaf
