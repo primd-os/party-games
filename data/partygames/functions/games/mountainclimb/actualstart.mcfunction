@@ -1,14 +1,18 @@
-
 #gives everyone saturation and resistance
 effect give @a[x=0] saturation 1000000 3 true
 effect give @a[x=0] resistance 1000000 4 true
+effect give @a[x=0] speed 1000000 1 true
 gamemode adventure @a[x=0]
 
 forceload add ~70 ~2 ~77 ~9
 
-fill ~71 ~101 ~4 ~71 ~106 ~8 black_stained_glass
-fill ~71 ~101 ~3 ~71 ~115 ~8 barrier
-fill ~76 ~101 ~4 ~76 ~115 ~8 barrier
+
+fill ~70 ~102 ~7 ~70 ~106 ~11 black_stained_glass 
+#frontwall ^
+fill ~71 ~102 ~3 ~78 ~115 ~3 barrier
+#sidewall ^
+fill ~78 ~102 ~4 ~78 ~115 ~11 barrier 
+#backwall ^
 
 tp @a[x=0] ~73 103 ~5
 

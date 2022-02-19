@@ -3,7 +3,7 @@ scoreboard objectives add pg.Variables dummy
 team add pg.Team
 team modify pg.Team prefix {"text": "Party Games | "}
 team modify pg.Team collisionRule always
-team modify pg.Team friendlyFire true
+team modify pg.Team friendlyFire false
 
 execute in partygames:partygames run forceload add -2 -3 10 10
 execute in partygames:partygames run setblock -2 100 -2 minecraft:structure_block[mode=load]{mode:"LOAD",name:"partygames:partygameslobby",posX:1,posY:1,posZ:1}

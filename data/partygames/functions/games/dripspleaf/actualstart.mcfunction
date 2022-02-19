@@ -7,6 +7,7 @@ fill ~-1 107 ~-1 ~-1 107 ~25 barrier
 fill ~-1 107 ~-1 ~25 107 ~-1 barrier
 fill ~25 107 ~-1 ~25 107 ~25 barrier
 fill ~-1 107 ~25 ~25 107 ~25 barrier
+fill ~ 101 ~ ~24 101 ~24 big_dripleaf
 forceload remove ~-1 ~-1 ~25 ~25
 
 

@@ -2,6 +2,7 @@
 #gives everyone saturation and resistance
 effect give @a[x=0] saturation 1000000 3 true
 effect give @a[x=0] resistance 1000000 4 true
+gamemode survival @a[x=0]
 forceload add ~-1 ~-1 ~51 ~51
 fill ~ 105 ~ ~50 105 ~50 barrier
 fill ~-1 107 ~-1 ~-1 107 ~51 barrier
