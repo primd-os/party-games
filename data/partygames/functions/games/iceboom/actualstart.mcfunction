@@ -1,5 +1,6 @@
 
 #gives everyone saturation and resistance
+team join pg.pvp @a[x=0]
 effect give @a[x=0] saturation 1000000 3 true
 effect give @a[x=0] resistance 1000000 4 true
 gamemode survival @a[x=0]

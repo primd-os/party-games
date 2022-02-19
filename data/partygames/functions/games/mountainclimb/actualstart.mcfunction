@@ -1,3 +1,5 @@
+fill ~ 100 ~ ~50 100 ~50 tripwire
+
 #gives everyone saturation and resistance
 effect give @a[x=0] saturation 1000000 3 true
 effect give @a[x=0] resistance 1000000 4 true
