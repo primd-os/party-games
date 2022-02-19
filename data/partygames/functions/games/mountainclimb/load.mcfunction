@@ -13,6 +13,14 @@ setblock ~15 ~147 ~23 redstone_block
 setblock ~63 ~148 ~23 minecraft:structure_block[mode=load]{mode:"LOAD",name:"partygames:mountainclimb/six",posX:1,posY:1,posZ:1}
 setblock ~63 ~147 ~23 redstone_block
 
+fill ~0 ~100 ~0 ~0 ~99 ~0 air
+fill ~48 ~100 ~0 ~48 ~99 ~0 air
+fill ~7 ~100 ~48 ~7 ~99 ~48 air
+fill ~48 ~100 ~48 ~48 ~99 ~48 air
+fill ~15 ~148 ~23 ~15 ~147 ~23 air
+fill ~63 ~148 ~23 ~63 ~147 ~23 air
+
+
 summon marker ~ 100 ~ {Tags:["pg.mc.GameMarker"]}
 forceload remove ~ ~ ~87 ~63
 

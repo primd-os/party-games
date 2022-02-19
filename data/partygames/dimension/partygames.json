@@ -10,7 +10,7 @@
             "blocks": ["minecraft:air"]
           }
         ],
-        "biome": "minecraft:the_void"
+        "biome": "partygames:partybiome"
       },
       "type": "minecraft:flat"
     },
