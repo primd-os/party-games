@@ -9,6 +9,7 @@ fill ~-1 107 ~-1 ~25 107 ~-1 barrier
 fill ~25 107 ~-1 ~25 107 ~25 barrier
 fill ~-1 107 ~25 ~25 107 ~25 barrier
 fill ~ 101 ~ ~24 101 ~24 big_dripleaf
+kill @e[type=item,x=0]
 forceload remove ~-1 ~-1 ~25 ~25
 
 
@@ -21,5 +22,4 @@ schedule function partygames:games/dripspleaf/get_ready 20t
 
 
 clear @a[x=0]
-give @a[x=0] big_dripleaf 10
-give @a[x=0] snowball 64
+
