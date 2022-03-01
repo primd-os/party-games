@@ -1,6 +1,6 @@
 
 #gives everyone saturation and resistance
-team join pg.pvp @a[x=0]
+
 effect give @a[x=0] saturation 1000000 3 true
 effect give @a[x=0] resistance 1000000 4 true
 gamemode survival @a[x=0]
@@ -17,6 +17,7 @@ forceload remove ~-1 ~-1 ~51 ~51
 tp @a[x=0] ~25 107 ~25
 
 scoreboard players set countdown pg.ib.Variables 4
+scoreboard players set IsEndState pg.ib.Variables 0
 
 #prints title countdown
 schedule function partygames:games/iceboom/get_ready 20t

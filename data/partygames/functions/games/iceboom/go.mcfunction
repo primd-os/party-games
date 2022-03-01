@@ -8,5 +8,7 @@ execute in partygames:partygames as @a[x=0] at @s run summon tnt ~ ~-1 ~ {Fuse:0
 
 scoreboard players remove countdown pg.ib.Variables 1
 
+execute in partygames:partygames run team join pg.pvp @a[x=0]
+
 execute in partygames:partygames run give @a[x=0] stick{Enchantments:[{id:"minecraft:knockback",lvl:1}],display:{Name:'[{"text":"Knockback Stick","italic":false}]'}} 1
 execute in partygames:partygames run give @a[x=0] creeper_spawn_egg{EntityTag: {ignited:1b,Fuse:0s,Invulnerable:1b,Invisible:1b},display:{Name:'[{"text":"Instant Boom","italic":false}]',Lore:['[{"text":"Instantly blows up","italic":false}]']}} 24

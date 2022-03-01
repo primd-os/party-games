@@ -1,0 +1,1 @@
+execute if score GameID pg.pr.Variables = Index pg.Variables run function partygames:games/pillarrace/load

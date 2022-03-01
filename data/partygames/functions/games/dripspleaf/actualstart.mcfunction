@@ -16,6 +16,7 @@ forceload remove ~-1 ~-1 ~25 ~25
 tp @a[x=0] ~12 107 ~12
 
 scoreboard players set countdown pg.ds.Variables 4
+scoreboard players set IsEndState pg.ds.Variables 0
 
 #prints title countdown
 schedule function partygames:games/dripspleaf/get_ready 20t

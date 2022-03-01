@@ -1,5 +1,6 @@
 scoreboard objectives add pg.Variables dummy
 
+
 team add pg.Team
 team modify pg.Team prefix {"text": "Party Games | "}
 team modify pg.Team collisionRule never

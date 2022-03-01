@@ -2,6 +2,7 @@
     "values": [
         "partygames:games/dripspleaf/start",
         "partygames:games/iceboom/start",
-        "partygames:games/mountainclimb/start"
+        "partygames:games/mountainclimb/start",
+        "partygames:games/pillarrace/start"
     ]
 }
