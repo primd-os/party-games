@@ -11,4 +11,6 @@ execute as @a[dx=200,dy=200,dz=200] at @s if block ~ ~-1 ~ minecraft:magenta_gla
 
 execute as @a[dx=200,dy=200,dz=200] at @s if block ~ ~-1 ~ minecraft:gold_block run effect give @s minecraft:speed 1 15 true
 
-execute positioned ~20 ~60 ~28 as @a[dx=0, dy=5, dz=6] if score IsEndState pg.mc.Variables matches 0 at @e[type=marker,x=0,tag=pg.mc.GameMarker,limit=1] run function partygames:games/mountainclimb/endmountainclimb
+execute positioned ~20 ~58 ~28 as @a[gamemode=!spectator,dx=0, dy=5, dz=6] run gamemode spectator
+
+execute positioned ~20 ~58 ~28 as @a[dx=0, dy=5, dz=6] if score IsEndState pg.mc.Variables matches 0 at @e[type=marker,x=0,tag=pg.mc.GameMarker,limit=1] run function partygames:games/mountainclimb/endmountainclimb

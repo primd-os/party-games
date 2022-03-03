@@ -16,6 +16,11 @@ forceload remove ~-1 ~-1 ~51 ~51
 
 tp @a[x=0] ~25 107 ~25
 
+tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
+tellraw @a[x=0] {"text":"Ice Boom","bold":true,"color":"green"}
+tellraw @a[x=0] {"text":"Don't fall into the void!","color":"yellow"}
+tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
+
 scoreboard players set countdown pg.ib.Variables 4
 scoreboard players set IsEndState pg.ib.Variables 0
 

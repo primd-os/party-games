@@ -3,14 +3,13 @@ execute in partygames:partygames as @a[x=0] at @s run playsound entity.experienc
 
 scoreboard players remove countdown pg.pr.Variables 1
 
+execute in partygames:partygames run give @a[x=0] magenta_concrete{CanPlaceOn:["minecraft:quartz_block","minecraft:magenta_concrete","minecraft:diamond_block","minecraft:emerald_block"]} 512
 
-execute in partygames:partygames run give @a[x=0] magenta_concrete{CanPlaceOn:["minecraft:quartz_block","minecraft:magenta_concrete","minecraft:diamond_block","minecraft:emerald_block"]} 576
+execute in partygames:partygames run give @a[x=0] netherite_pickaxe{CanDestroy:["minecraft:magenta_concrete"],Unbreakable:1}
+
+
 
 execute in partygames:partygames run team join pg.pvp @a[x=0]
-
-
-execute in partygames:partygames run execute at @e[type=marker,x=0,tag=pg.pr.pillar] run fill ~ 94 ~ ~ 133 ~ quartz_block
-execute in partygames:partygames run kill @e[type=marker,x=0,tag=pg.pr.pillar]
 
 execute in partygames:partygames at @e[type=marker,x=0,tag=pg.pr.GameMarker,limit=1] run fill ~10 102 ~ ~10 102 ~16 air
 execute in partygames:partygames at @e[type=marker,x=0,tag=pg.pr.GameMarker,limit=1] run fill ~ 93 ~-20 ~71 93 ~35 barrier

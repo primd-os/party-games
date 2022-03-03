@@ -16,6 +16,11 @@ fill ~78 102 ~4 ~78 115 ~14 barrier
 
 tp @a[x=0] ~73 103 ~5
 
+tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
+tellraw @a[x=0] {"text":"Mountain Climb","bold":true,"color":"green"}
+tellraw @a[x=0] {"text":"Get to the finish first!","color":"yellow"}
+tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
+
 forceload remove ~70 ~2 ~77 ~9
 
 scoreboard players set countdown pg.mc.Variables 4

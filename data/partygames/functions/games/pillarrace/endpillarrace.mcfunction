@@ -2,8 +2,6 @@ scoreboard players set IsEndState pg.pr.Variables 1
 kill @e[type=item,x=0]
 schedule function partygames:main/nextgame 5s
 playsound entity.firework_rocket.large_blast_far master @a[x=0] 
-clear @a[x=0]
-effect clear @a[x=0]
 
 fill ~10 94 ~ ~63 174 ~6 air
 fill ~10 94 ~7 ~63 174 ~13 air
@@ -29,3 +27,5 @@ fill ~ 94 ~ ~71 99 ~15 air
 
 fill ~ 93 ~-20 ~71 93 ~35 air
 #clears the floor ^
+
+tellraw @a[x=0] [{"selector":"@a[gamemode=spectator,x=0]","color":"yellow"},{"text": " Wins!","color":"yellow"}]

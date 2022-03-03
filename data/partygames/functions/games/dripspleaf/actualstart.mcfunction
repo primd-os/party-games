@@ -12,8 +12,12 @@ fill ~ 101 ~ ~24 101 ~24 big_dripleaf
 kill @e[type=item,x=0]
 forceload remove ~-1 ~-1 ~25 ~25
 
-
 tp @a[x=0] ~12 107 ~12
+
+tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
+tellraw @a[x=0] {"text":"Dripspleaf","bold":true,"color":"green"}
+tellraw @a[x=0] {"text":"Don't touch the floor!","color":"yellow"}
+tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
 
 scoreboard players set countdown pg.ds.Variables 4
 scoreboard players set IsEndState pg.ds.Variables 0
