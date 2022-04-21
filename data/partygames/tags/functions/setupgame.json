@@ -3,6 +3,10 @@
         "partygames:games/dripspleaf/setupgame",
         "partygames:games/iceboom/setupgame",
         "partygames:games/mountainclimb/setupgame",
-        "partygames:games/pillarrace/setupgame"
+        "partygames:games/pillarrace/setupgame",
+        "partygames:games/sumospleef/setupgame",
+        "partygames:games/kingofthehill/setupgame",
+        "partygames:games/jetwars/setupgame",
+        "partygames:games/scaffoldwars/setupgame"
     ]
 }

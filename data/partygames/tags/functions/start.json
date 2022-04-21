@@ -3,6 +3,10 @@
         "partygames:games/dripspleaf/start",
         "partygames:games/iceboom/start",
         "partygames:games/mountainclimb/start",
-        "partygames:games/pillarrace/start"
+        "partygames:games/pillarrace/start",
+        "partygames:games/sumospleef/start",
+        "partygames:games/kingofthehill/start",
+        "partygames:games/jetwars/start",
+        "partygames:games/scaffoldwars/start"
     ]
 }

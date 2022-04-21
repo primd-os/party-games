@@ -1,1 +1,0 @@
-kill @e[type=item,x=0]

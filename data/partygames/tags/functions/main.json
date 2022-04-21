@@ -3,6 +3,10 @@
         "partygames:games/dripspleaf/tick",
         "partygames:games/iceboom/tick",
         "partygames:games/mountainclimb/tick",
-        "partygames:games/pillarrace/tick"
+        "partygames:games/pillarrace/tick",
+        "partygames:games/sumospleef/tick",
+        "partygames:games/kingofthehill/tick",
+        "partygames:games/jetwars/tick",
+        "partygames:games/scaffoldwars/tick"
     ]
 }

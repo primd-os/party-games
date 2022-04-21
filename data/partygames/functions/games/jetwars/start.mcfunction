@@ -1,0 +1,1 @@
+execute if score GameID pg.jw.Variables = RandomGameID pg.Variables run function partygames:games/jetwars/actualstart

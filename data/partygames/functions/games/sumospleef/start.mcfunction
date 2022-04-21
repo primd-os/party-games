@@ -1,0 +1,1 @@
+execute if score GameID pg.ss.Variables = RandomGameID pg.Variables run function partygames:games/sumospleef/actualstart

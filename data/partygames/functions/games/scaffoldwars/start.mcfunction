@@ -1,0 +1,1 @@
+execute if score GameID pg.sw.Variables = RandomGameID pg.Variables run function partygames:games/scaffoldwars/actualstart

@@ -19,6 +19,7 @@ tp @a[x=0] ~25 107 ~25
 tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
 tellraw @a[x=0] {"text":"Ice Boom","bold":true,"color":"green"}
 tellraw @a[x=0] {"text":"Don't fall into the void!","color":"yellow"}
+tellraw @a[x=0] {"text":"Breaking string makes ice!","color":"yellow"}
 tellraw @a[x=0] {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","bold":true,"color":"blue"}
 
 scoreboard players set countdown pg.ib.Variables 4

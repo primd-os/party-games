@@ -20,6 +20,9 @@ execute in partygames:partygames run forceload remove -2 -3 10 10
 scoreboard players set GameID pg.Variables 0
 function #partygames:getinfo
 
+scoreboard players set Colors pg.Variables 0
+
+
 scoreboard players set Index pg.Variables 0
 execute in partygames:partygames positioned 1000 0 0 run function partygames:start/setuploop 
 

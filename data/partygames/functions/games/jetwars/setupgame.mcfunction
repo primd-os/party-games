@@ -1,0 +1,1 @@
+execute if score GameID pg.jw.Variables = Index pg.Variables run function partygames:games/jetwars/load

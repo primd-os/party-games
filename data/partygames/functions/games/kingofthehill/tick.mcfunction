@@ -1,0 +1,1 @@
+execute as @e[type=marker,x=0,tag=pg.kh.GameMarker,limit=1] at @s run function partygames:games/kingofthehill/actualtick

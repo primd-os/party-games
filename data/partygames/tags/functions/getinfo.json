@@ -3,6 +3,10 @@
         "partygames:games/dripspleaf/getinfo",
         "partygames:games/iceboom/getinfo",
         "partygames:games/mountainclimb/getinfo",
-        "partygames:games/pillarrace/getinfo"
+        "partygames:games/pillarrace/getinfo",
+        "partygames:games/sumospleef/getinfo",
+        "partygames:games/kingofthehill/getinfo",
+        "partygames:games/jetwars/getinfo",
+        "partygames:games/scaffoldwars/getinfo"
     ]
 }

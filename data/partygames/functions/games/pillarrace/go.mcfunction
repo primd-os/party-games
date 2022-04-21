@@ -3,10 +3,23 @@ execute in partygames:partygames as @a[x=0] at @s run playsound entity.experienc
 
 scoreboard players remove countdown pg.pr.Variables 1
 
-execute in partygames:partygames run give @a[x=0] magenta_concrete{CanPlaceOn:["minecraft:quartz_block","minecraft:magenta_concrete","minecraft:diamond_block","minecraft:emerald_block"]} 512
+execute in partygames:partygames run give @a[x=0,tag=pg.red] red_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
 
-execute in partygames:partygames run give @a[x=0] netherite_pickaxe{CanDestroy:["minecraft:magenta_concrete"],Unbreakable:1}
+execute in partygames:partygames run give @a[x=0,tag=pg.orange] orange_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
 
+execute in partygames:partygames run give @a[x=0,tag=pg.yellow] yellow_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
+
+execute in partygames:partygames run give @a[x=0,tag=pg.green] lime_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
+
+execute in partygames:partygames run give @a[x=0,tag=pg.aqua] light_blue_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
+
+execute in partygames:partygames run give @a[x=0,tag=pg.blue] blue_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
+
+execute in partygames:partygames run give @a[x=0,tag=pg.purple] purple_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
+
+execute in partygames:partygames run give @a[x=0,tag=pg.pink] pink_concrete{CanPlaceOn:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete","minecraft:quartz_block","minecraft:diamond_block","minecraft:emerald_block"]} 512
+
+execute in partygames:partygames run give @a[x=0] netherite_pickaxe{CanDestroy:["minecraft:red_concrete","minecraft:orange_concrete","minecraft:yellow_concrete","minecraft:lime_concrete","minecraft:light_blue_concrete","minecraft:blue_concrete","minecraft:purple_concrete","minecraft:pink_concrete"],Unbreakable:1}
 
 
 execute in partygames:partygames run team join pg.pvp @a[x=0]

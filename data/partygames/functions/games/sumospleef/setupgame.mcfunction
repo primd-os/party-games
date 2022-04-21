@@ -1,0 +1,1 @@
+execute if score GameID pg.ss.Variables = Index pg.Variables run function partygames:games/sumospleef/load

@@ -5,21 +5,7 @@ kill @e[type=marker,x=0,tag=pg.ds.grower,limit=1]
 execute positioned ~-15 95 ~-15 run kill @e[type=item,dx=50,dy=100,dz=50]
 
 execute positioned ~-15 95 ~-15 as @a[gamemode=!spectator,dx=50,dy=100,dz=50] at @s if block ~ ~-.1 ~ minecraft:mycelium run function partygames:main/fakedeath
-execute positioned ~-40 40 ~-40 as @e[type=player,gamemode=!spectator,dx=100,dy=50,dz=100] run function partygames:main/fakedeath
-
-
-fill ~ 99 ~ ~25 115 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 116 ~ ~25 135 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 136 ~ ~25 155 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 156 ~ ~25 175 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 176 ~ ~25 195 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 196 ~ ~25 215 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 216 ~ ~25 235 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 236 ~ ~25 255 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 256 ~ ~25 275 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 276 ~ ~25 295 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 296 ~ ~25 315 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
-fill ~ 316 ~ ~25 319 ~25 minecraft:air replace minecraft:big_dripleaf[tilt=full]
+execute positioned ~-40 40 ~-40 as @e[type=player,gamemode=!spectator,dx=100,dy=60.3,dz=100] run function partygames:main/fakedeath
 
 scoreboard players set playercount pg.ds.Variables 0
 execute as @a[gamemode=!spectator,x=0] run scoreboard players add playercount pg.ds.Variables 1

@@ -1,0 +1,1 @@
+execute if score GameID pg.kh.Variables = Index pg.Variables run function partygames:games/kingofthehill/load
