@@ -1,11 +1,10 @@
-summon minecraft:marker ~ ~ ~ {Tags:["pg.ds.grower"]}
-spreadplayers ~ ~ 20 25 true @e[type=marker,x=0,tag=pg.ds.grower,limit=1]
-execute at @e[type=marker,x=0,tag=pg.ds.grower,limit=1] unless entity @a[distance=..3] run setblock ~ ~ ~ minecraft:big_dripleaf
-kill @e[type=marker,x=0,tag=pg.ds.grower,limit=1]
-execute positioned ~-15 95 ~-15 run kill @e[type=item,dx=50,dy=100,dz=50]
+function partygames:games/dripspleaf/do_grow
 
 execute positioned ~-15 95 ~-15 as @a[gamemode=!spectator,dx=50,dy=100,dz=50] at @s if block ~ ~-.1 ~ minecraft:mycelium run function partygames:main/fakedeath
-execute positioned ~-40 40 ~-40 as @e[type=player,gamemode=!spectator,dx=100,dy=60.3,dz=100] run function partygames:main/fakedeath
+execute at @e[tag=pg.ds.LavaFloor] positioned ~-40 ~-50 ~-40 as @e[type=player,gamemode=!spectator,dx=100,dy=50,dz=100] run function partygames:main/fakedeath
+
+execute as @e[x=0,tag=pg.ds.LavaFloor] at @s run tp @s ~ ~0.004 ~
+execute as @e[x=0,tag=pg.ds.LavaFloor] at @s run particle block_marker lava ~ ~-0.1 ~ 10 0 10 0.1 25 force
 
 scoreboard players set playercount pg.ds.Variables 0
 execute as @a[gamemode=!spectator,x=0] run scoreboard players add playercount pg.ds.Variables 1

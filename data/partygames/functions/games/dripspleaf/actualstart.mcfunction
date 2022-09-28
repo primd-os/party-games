@@ -1,14 +1,31 @@
-kill @e[type=item,x=0]
-
 #gives everyone saturation
 effect give @a[x=0] saturation 1000000 3 true
 forceload add ~-1 ~-1 ~25 ~25
+fill ~ 102 ~ ~24 103 ~24 air
+fill ~ 101 ~ ~24 101 ~24 big_dripleaf
+kill @e[type=item,x=0]
+
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+function partygames:games/dripspleaf/do_grow
+
 fill ~ 105 ~ ~24 105 ~24 barrier
 fill ~-1 107 ~-1 ~-1 107 ~25 barrier
 fill ~-1 107 ~-1 ~25 107 ~-1 barrier
 fill ~25 107 ~-1 ~25 107 ~25 barrier
 fill ~-1 107 ~25 ~25 107 ~25 barrier
-fill ~ 101 ~ ~24 101 ~24 big_dripleaf
+
 kill @e[type=item,x=0]
 forceload remove ~-1 ~-1 ~25 ~25
 
@@ -25,6 +42,4 @@ scoreboard players set IsEndState pg.ds.Variables 0
 #prints title countdown
 schedule function partygames:games/dripspleaf/get_ready 20t
 
-
 clear @a[x=0]
-
